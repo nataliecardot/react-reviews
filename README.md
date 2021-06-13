@@ -1,6 +1,6 @@
 # react-reviews
 
-In this mini app, you can cycle through a list of locally stored data using previous/next buttons and get a random result. Recurrence of the same result is prevented when clicking random button.
+In this mini app, you can cycle through a list of locally stored data using previous/next buttons and get a random result. Recurrence of the same result is prevented when clicking the random button.
 
 To view, run `npm i && npm start` in downloaded project.
 
