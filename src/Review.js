@@ -29,6 +29,8 @@ const Review = () => {
   const randomPerson = () => {
     // Get a number between 0 and 3
     let randomNumber = Math.floor(Math.random() * people.length);
+    // Prevent return of same index. In returning recursive function call, it's called again
+    if (randomNumber === index) return randomPerson();
     setIndex(checkNumber(randomNumber));
   };
 
